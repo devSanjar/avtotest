@@ -1,0 +1,70 @@
+@import '../root.css';
+
+.card-top-green {
+	border-top: 3px solid #5daa3b;
+}
+
+.header__left {
+	background-color: var(--green);
+}
+
+@media only screen and (max-width: 450px) {
+	.card {
+		width: 85%;
+	}
+}
+
+@media only screen and (max-width: 450px) {
+	.table-group {
+		width: 100%;
+	}
+}
+
+.tr-style-group {
+	background: var(--green) !important;
+}
+.main__right-title {
+	font-size: 25px;
+	color: var(--bg-dark);
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.main__right-box {
+	border-top: 3px solid var(--green);
+}
+.dropdown {
+	margin: 5px !important;
+}
+.form-select {
+	width: max-content !important;
+	border: 1px solid var(--border-bg);
+	border-radius: 4px;
+	margin: 5px 5px 5px 0;
+}
+.popup__select-txt {
+	font-size: 18px;
+	margin: 5px 0 0 0;
+	font-weight: 600;
+	color: var(--blue);
+}
+.directory__right-popup {
+	top: 50px;
+	left: 650px;
+}
+.popup-p {
+	margin: 5px 0 0 0 !important;
+}
+.form-check {
+	width: 250px;
+	margin-left: 20px;
+}
+.popup-wrapper-addContract {
+	position: absolute !important;
+	top: 0;
+	left: 0;
+	z-index: 99999;
+	display: none;
+	width: 100% !important;
+	height: 100% !important;
+	background: rgba(0, 0, 0, 0.37) !important;
+}
